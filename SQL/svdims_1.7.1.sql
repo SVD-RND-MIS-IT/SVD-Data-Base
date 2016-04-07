@@ -43,6 +43,15 @@ CREATE TABLE `articles` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `articles`
+--
+
+LOCK TABLES `articles` WRITE;
+/*!40000 ALTER TABLE `articles` DISABLE KEYS */;
+/*!40000 ALTER TABLE `articles` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `articles_vidusarana`
 --
 
@@ -64,6 +73,15 @@ CREATE TABLE `articles_vidusarana` (
   CONSTRAINT `vidu_id` FOREIGN KEY (`vid_id`) REFERENCES `vidusarana` (`vid_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `articles_vidusarana`
+--
+
+LOCK TABLES `articles_vidusarana` WRITE;
+/*!40000 ALTER TABLE `articles_vidusarana` DISABLE KEYS */;
+/*!40000 ALTER TABLE `articles_vidusarana` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `book`
@@ -89,6 +107,15 @@ CREATE TABLE `book` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `book`
+--
+
+LOCK TABLES `book` WRITE;
+/*!40000 ALTER TABLE `book` DISABLE KEYS */;
+/*!40000 ALTER TABLE `book` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `book_category`
 --
 
@@ -112,6 +139,15 @@ CREATE TABLE `book_category` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `book_category`
+--
+
+LOCK TABLES `book_category` WRITE;
+/*!40000 ALTER TABLE `book_category` DISABLE KEYS */;
+/*!40000 ALTER TABLE `book_category` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `category`
 --
 
@@ -132,6 +168,15 @@ CREATE TABLE `category` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `category`
+--
+
+LOCK TABLES `category` WRITE;
+/*!40000 ALTER TABLE `category` DISABLE KEYS */;
+/*!40000 ALTER TABLE `category` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `class`
 --
 
@@ -150,6 +195,16 @@ CREATE TABLE `class` (
   PRIMARY KEY (`clz_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `class`
+--
+
+LOCK TABLES `class` WRITE;
+/*!40000 ALTER TABLE `class` DISABLE KEYS */;
+INSERT INTO `class` VALUES (1,2,'a','1','2016-03-26 00:20:10',1,NULL,NULL),(2,2,'b','1','2016-03-26 00:20:10',1,NULL,NULL),(3,3,'a','1','2016-03-26 00:20:10',1,NULL,NULL),(4,3,'b','1','2016-03-26 00:20:10',1,NULL,NULL),(5,4,'a','1','2016-03-26 00:20:10',1,NULL,NULL),(6,4,'b','1','2016-03-26 00:20:10',1,NULL,NULL);
+/*!40000 ALTER TABLE `class` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `class_report`
@@ -248,6 +303,15 @@ CREATE TABLE `class_report` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `class_report`
+--
+
+LOCK TABLES `class_report` WRITE;
+/*!40000 ALTER TABLE `class_report` DISABLE KEYS */;
+/*!40000 ALTER TABLE `class_report` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `copy`
 --
 
@@ -273,6 +337,15 @@ CREATE TABLE `copy` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `copy`
+--
+
+LOCK TABLES `copy` WRITE;
+/*!40000 ALTER TABLE `copy` DISABLE KEYS */;
+/*!40000 ALTER TABLE `copy` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `diseases`
 --
 
@@ -293,6 +366,16 @@ CREATE TABLE `diseases` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `diseases`
+--
+
+LOCK TABLES `diseases` WRITE;
+/*!40000 ALTER TABLE `diseases` DISABLE KEYS */;
+INSERT INTO `diseases` VALUES (1,'dis1','aaaaaaa',1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'dis2','aaaaaaa',1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'dis3','aaaaaaa',1,'2016-03-26 00:20:10',1,NULL,NULL);
+/*!40000 ALTER TABLE `diseases` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `donation_reason`
 --
 
@@ -311,6 +394,15 @@ CREATE TABLE `donation_reason` (
   PRIMARY KEY (`don_rea_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `donation_reason`
+--
+
+LOCK TABLES `donation_reason` WRITE;
+/*!40000 ALTER TABLE `donation_reason` DISABLE KEYS */;
+/*!40000 ALTER TABLE `donation_reason` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `donations`
@@ -337,6 +429,15 @@ CREATE TABLE `donations` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `donations`
+--
+
+LOCK TABLES `donations` WRITE;
+/*!40000 ALTER TABLE `donations` DISABLE KEYS */;
+/*!40000 ALTER TABLE `donations` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `exam`
 --
 
@@ -355,6 +456,16 @@ CREATE TABLE `exam` (
   PRIMARY KEY (`exm_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=49 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `exam`
+--
+
+LOCK TABLES `exam` WRITE;
+/*!40000 ALTER TABLE `exam` DISABLE KEYS */;
+INSERT INTO `exam` VALUES (1,'exm1','aaaaa',3,'2016-03-26 00:20:10',1,NULL,NULL),(2,'exm2','aaaaa',3,'2016-03-26 00:20:10',1,NULL,NULL),(3,'exm3','aaaaa',3,'2016-03-26 00:20:10',1,NULL,NULL),(4,'exam1','aaaaaaaaaaa',3,'2016-04-01 11:55:07',15,'2016-04-02 15:25:49',27),(5,'exam2','aaaaaaaaaaa',3,'2016-04-01 11:59:22',27,'2016-04-02 15:25:37',27),(6,'exam3','aaaaaaaaaaa',3,'2016-04-02 14:30:43',27,'2016-04-02 14:48:07',27),(7,'exam4','aaaaaaaaaaa',3,'2016-04-02 14:32:14',27,'2016-04-02 14:58:30',27),(8,'exam3','updated',3,'2016-04-02 14:46:14',27,'2016-04-02 14:48:07',27),(9,'exam3','updated',3,'2016-04-02 14:48:07',27,NULL,NULL),(10,'exam4','updated',3,'2016-04-02 14:58:30',27,'2016-04-02 15:00:46',27),(11,'exam1','updated',3,'2016-04-02 15:25:49',27,NULL,NULL),(12,'exam4','aaaaaaaaaaa',3,'2016-04-02 15:25:57',27,NULL,NULL),(13,'exam4','aaaaaaaaaaa',3,'2016-04-02 15:33:15',27,NULL,NULL),(14,'exam44','aaaaaaaaaaa',2,'2016-04-02 15:35:43',27,NULL,NULL),(15,'exm8','aaaaaaaaaaa',2,'2016-04-02 23:35:25',27,NULL,NULL),(16,'exm9','aaaaaaaaaaa',2,'2016-04-02 23:35:45',27,NULL,NULL),(17,'exm10','aaaaaaaaaaa',2,'2016-04-02 23:36:10',27,NULL,NULL),(18,'exm1','aaaaaaaaaaa',2,'2016-04-02 23:36:41',27,NULL,NULL),(19,'exm2','aaaaaaaaaaa',2,'2016-04-02 23:36:44',27,'2016-04-02 23:39:47',27),(20,'exm3','aaaaaaaaaaa',2,'2016-04-02 23:36:47',27,'2016-04-02 23:41:28',27),(21,'exm4','aaaaaaaaaaa',3,'2016-04-02 23:36:51',27,'2016-04-02 23:41:45',27),(22,'exm5','aaaaaaaaaaa',3,'2016-04-02 23:36:55',27,'2016-04-02 23:41:50',27),(23,'exm6','aaaaaaaaaaa',2,'2016-04-02 23:36:59',27,NULL,NULL),(24,'exm7','aaaaaaaaaaa',2,'2016-04-02 23:37:03',27,NULL,NULL),(25,'exam8','aaaaaaaaaaa',2,'2016-04-02 23:38:13',27,NULL,NULL),(26,'exam7','aaaaaaaaaaa',2,'2016-04-02 23:38:21',27,NULL,NULL),(27,'exm2','updated',2,'2016-04-02 23:39:47',27,NULL,NULL),(28,'exm3','updated',2,'2016-04-02 23:41:28',27,NULL,NULL),(29,'exam41','aaaaaaaaaaa',2,'2016-04-02 23:53:26',27,NULL,NULL),(30,'exam42','aaaaaaaaaaa',2,'2016-04-02 23:53:35',27,NULL,NULL),(31,'exam43','aaaaaaaaaaa',2,'2016-04-02 23:53:39',27,NULL,NULL),(32,'exam4','aaaaaaaaaaa',2,'2016-04-02 23:56:49',27,NULL,NULL),(33,'exam4','aaaaaaaaaaa',2,'2016-04-02 23:56:55',27,NULL,NULL),(34,'exam4','aaaaaaaaaaa',2,'2016-04-02 23:57:00',27,NULL,NULL),(35,'exam4','aaaaaaaaaaa',2,'2016-04-02 23:57:26',27,NULL,NULL),(36,'exam4','aaaaaaaaaaa',2,'2016-04-02 23:58:15',27,NULL,NULL),(37,'exam4','aaaaaaaaaaa',2,'2016-04-03 00:01:49',27,NULL,NULL),(38,'exam massa','aaaaaaaaaaa',1,'2016-04-03 00:04:54',27,NULL,NULL),(39,'exam4','aaaaaaaaaaa',1,'2016-04-03 00:07:51',27,NULL,NULL),(40,'wwwww','massa exam',1,'2016-04-03 00:10:35',27,NULL,NULL),(41,'exajjj','aaaaaaaaaaa',1,'2016-04-03 00:11:47',27,NULL,NULL),(42,'qqq','aaaaaaaaaaa',2,'2016-04-03 00:14:48',27,'2016-04-03 00:16:31',27),(43,'qqqee','aaaaaaaaaaa',1,'2016-04-03 00:16:05',27,NULL,NULL),(44,'qqq','updated',3,'2016-04-03 00:16:31',27,'2016-04-03 00:16:47',27),(45,'qqqwwee','aaaaaaaaaaa',1,'2016-04-03 00:18:06',27,NULL,NULL),(46,'qqqqaaaddd','aaaaaaaaaaa',1,'2016-04-03 00:25:21',27,NULL,NULL),(47,'wwwwwkaaa','massa exam',1,'2016-04-06 09:39:11',27,NULL,NULL),(48,'wwwwwk','null',1,'2016-04-06 09:46:55',27,NULL,NULL);
+/*!40000 ALTER TABLE `exam` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Temporary view structure for view `exam_result_view`
@@ -447,6 +558,16 @@ CREATE TABLE `father` (
   CONSTRAINT `occ_type_id` FOREIGN KEY (`far_occupation_type`) REFERENCES `occupation_type` (`occ_type_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `father`
+--
+
+LOCK TABLES `father` WRITE;
+/*!40000 ALTER TABLE `father` DISABLE KEYS */;
+INSERT INTO `father` VALUES (1,'far1','01111','123hhhh','ghasithalakmal@gmail.com','techer',1,'123aaaa','123456789',NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'far2','01111','123hhhh','ghasithalakmal@gmail.com','techer',2,'123aaaa','123456789',NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'far3','01111','123hhhh','ghasithalakmal@gmail.com','techer',1,'123aaaa','123456789',NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL);
+/*!40000 ALTER TABLE `father` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Temporary view structure for view `gr11_thurunusaviya_view`
@@ -562,6 +683,15 @@ CREATE TABLE `grade_9_thurunu_saviya` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `grade_9_thurunu_saviya`
+--
+
+LOCK TABLES `grade_9_thurunu_saviya` WRITE;
+/*!40000 ALTER TABLE `grade_9_thurunu_saviya` DISABLE KEYS */;
+/*!40000 ALTER TABLE `grade_9_thurunu_saviya` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `gread_10_thurunu_saviya`
 --
 
@@ -615,6 +745,15 @@ CREATE TABLE `gread_10_thurunu_saviya` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `gread_10_thurunu_saviya`
+--
+
+LOCK TABLES `gread_10_thurunu_saviya` WRITE;
+/*!40000 ALTER TABLE `gread_10_thurunu_saviya` DISABLE KEYS */;
+/*!40000 ALTER TABLE `gread_10_thurunu_saviya` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `gread_11_thurunu_saviya`
 --
 
@@ -661,6 +800,15 @@ CREATE TABLE `gread_11_thurunu_saviya` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `gread_11_thurunu_saviya`
+--
+
+LOCK TABLES `gread_11_thurunu_saviya` WRITE;
+/*!40000 ALTER TABLE `gread_11_thurunu_saviya` DISABLE KEYS */;
+/*!40000 ALTER TABLE `gread_11_thurunu_saviya` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `guardian`
 --
 
@@ -691,6 +839,16 @@ CREATE TABLE `guardian` (
   CONSTRAINT `ocu_id` FOREIGN KEY (`gur_occupation _type`) REFERENCES `occupation_type` (`occ_type_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `guardian`
+--
+
+LOCK TABLES `guardian` WRITE;
+/*!40000 ALTER TABLE `guardian` DISABLE KEYS */;
+INSERT INTO `guardian` VALUES (1,'gar1','123456789','123aaaa','gha@gma.com','aaa',1,'123aaa','123456789',NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'gar2','123456789','123aaaa','gha@gma.com','aaa',2,'123aaa','123456789',NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'gar3','123456789','123aaaa','gha@gma.com','aaa',3,'123aaa','123456789',NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL);
+/*!40000 ALTER TABLE `guardian` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Temporary view structure for view `guardian_view`
@@ -750,6 +908,15 @@ CREATE TABLE `lending` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `lending`
+--
+
+LOCK TABLES `lending` WRITE;
+/*!40000 ALTER TABLE `lending` DISABLE KEYS */;
+/*!40000 ALTER TABLE `lending` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `member`
 --
 
@@ -768,6 +935,15 @@ CREATE TABLE `member` (
   PRIMARY KEY (`mem_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `member`
+--
+
+LOCK TABLES `member` WRITE;
+/*!40000 ALTER TABLE `member` DISABLE KEYS */;
+/*!40000 ALTER TABLE `member` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `mother`
@@ -803,6 +979,16 @@ CREATE TABLE `mother` (
   CONSTRAINT `occ_type_detail` FOREIGN KEY (`mot_occupation _type`) REFERENCES `occupation_type` (`occ_type_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `mother`
+--
+
+LOCK TABLES `mother` WRITE;
+/*!40000 ALTER TABLE `mother` DISABLE KEYS */;
+INSERT INTO `mother` VALUES (1,'mot1','123456789','123aaaa','gh@gmail','mmmm',1,'123aaa','123456789',NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'mot2','123456789','123aaaa','gh@gmail','mmmm',2,'123aaa','123456789',NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'mot3','123456789','123aaaa','gh@gmail','mmmm',1,'123aaa','123456789',NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL);
+/*!40000 ALTER TABLE `mother` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Temporary view structure for view `mother_view`
@@ -909,6 +1095,15 @@ CREATE TABLE `nirmathru_pranama_thurunu_saviya` (
   CONSTRAINT `pro4` FOREIGN KEY (`np_pro4_id`) REFERENCES `project` (`pro_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `nirmathru_pranama_thurunu_saviya`
+--
+
+LOCK TABLES `nirmathru_pranama_thurunu_saviya` WRITE;
+/*!40000 ALTER TABLE `nirmathru_pranama_thurunu_saviya` DISABLE KEYS */;
+/*!40000 ALTER TABLE `nirmathru_pranama_thurunu_saviya` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Temporary view structure for view `np_ts_view`
@@ -1070,6 +1265,16 @@ CREATE TABLE `occupation_type` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `occupation_type`
+--
+
+LOCK TABLES `occupation_type` WRITE;
+/*!40000 ALTER TABLE `occupation_type` DISABLE KEYS */;
+INSERT INTO `occupation_type` VALUES (1,'teacher','school teacher',1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'Software Engineer','SE',1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'police','police officer',1,'2016-03-26 00:20:10',1,NULL,NULL),(4,'coup1','massa',2,'2016-04-06 10:22:59',27,'2016-04-07 05:19:26',27),(5,'coup2','massa',1,'2016-04-06 10:41:36',27,NULL,NULL),(6,'ocu12','aaaaaaaaaaa',1,'2016-04-07 01:07:55',1,NULL,NULL),(7,'ocu14','aaaaaaaaaaa',1,'2016-04-07 01:14:32',1,NULL,NULL),(8,'ocu15','aaaaaaaaaaa',1,'2016-04-07 01:15:16',1,NULL,NULL);
+/*!40000 ALTER TABLE `occupation_type` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `operational_user`
 --
 
@@ -1095,6 +1300,16 @@ CREATE TABLE `operational_user` (
   CONSTRAINT `usr_cat` FOREIGN KEY (`usr_category`) REFERENCES `user_category` (`ucat_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `operational_user`
+--
+
+LOCK TABLES `operational_user` WRITE;
+/*!40000 ALTER TABLE `operational_user` DISABLE KEYS */;
+INSERT INTO `operational_user` VALUES (1,'hasitha','$2a$10$d04ee9b3b685050aea7dauT/ipJNaosa18fQ2q71pQeGS.I9Ev8Du','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'e57598603448df03a0c99652319c6ffc',1,'2016-03-31 03:58:07',1,NULL,NULL),(2,'hasitha2','$2a$10$12b9e5760815de84017d0e83GWRasG1buLYY/pvugSEFv4ZymNyPa','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'fae91e80dcfe44c6677a1ff6c92c6422',2,'2016-03-31 03:59:10',1,'2016-04-01 05:10:48',15),(3,'hasitha3','$2a$10$29da8dfa0ea906224d27au79SUy/MfMM1SP//pqmFf6d8RM4Q.KlG','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'53bf6cfac7dfb5019d03182d932087c9',2,'2016-03-31 03:59:26',1,'2016-04-03 00:35:13',15),(4,'hasitha4','$2a$10$beae54e3281c74299b1c6uL3h7Vju.o972cqOM3xwTEGSIuqIuXre','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'614a961a70965efd7e282b0fd0a88a48',3,'2016-03-31 04:01:18',1,'2016-04-07 01:05:02',1),(5,'hasitha5','$2a$10$e476bedb1afe652f2975bOuBjv.wAZhwj4jkHa.roSmHxPXyWqX9q','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'8578beaab256c8849a16157ab5bcbc0c',1,'2016-03-31 04:03:21',1,NULL,NULL),(6,'hasitha6','$2a$10$99de69dbd7cf054b56753ujCXxujTv1jyzVIoONZj32ooD4I4X6wS','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'04205faf35b50aa0a606ff3c5bd3b134',1,'2016-03-31 04:03:55',2,NULL,NULL),(7,'hasitha7','$2a$10$ee69628d477d496511e38uKbOHw8jq2qw3wRN2D16LNNPVrqFdvw6','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'53d44c8ac5e0c464da46b87e14adc071',1,'2016-03-31 05:49:25',1,NULL,NULL),(8,'hasitha8','$2a$10$48e49283e958d6daa8057usKMeMYnzmo9C4WxSu4WB7z0RzbOlMmS','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'473e5a3c172eacbf8af938e6a5a5816a',3,'2016-03-31 07:08:25',1,'2016-04-01 05:19:33',15),(9,'hasitha9','$2a$10$bee5146a27af46ba9230duZJ/crBJqbZ/SDB/j6fFUsBJa9dUm8WS','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'e27c6f3d3c1d4682675bfe1d23910fc0',1,'2016-03-31 07:09:00',1,NULL,NULL),(10,'hasitha10','$2a$10$5247d84fde55364a41478uS9OcMzSIJujndDIgj7iRUltv2juV86K','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'5b1436444fa6a57833b459e766878d39',3,'2016-03-31 07:09:12',1,'2016-03-31 15:51:41',15),(11,'hasitha11','$2a$10$41f92a88bba4f5e5d4601u6NRyEUW4O4suGMbFBc.mV8CFnnUW0h2','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'3d2bcbc69b8a963d4787704f2a622efe',3,'2016-03-31 07:10:23',1,'2016-03-31 15:52:47',15),(12,'Waruni','$2a$10$bd78e15d747422952fcb0uVVlvHTXE.qrfrhM.SEO1QxhCmBqyOKG','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'94342f3a2fd2c951d0a9a8cd56f3eff0',1,'2016-03-31 07:53:48',1,NULL,NULL),(13,'Waruni2','$2a$10$86a3cca96b6b994479709uqweXtXig43Zym3MGaMwLohebhf5MerS','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'be64f260bca902302f91adcdfb1f2713',1,'2016-03-31 08:01:20',1,NULL,NULL),(14,'Waruni3','$2a$10$d6674ab645980c0e4929fuxW.stODcyY//sTuipzpYK2GEDf0phF6','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'c9b8979e4cad44c8c7dc17ccd602b867',1,'2016-03-31 08:07:38',1,NULL,NULL),(15,'Waruni4','$2a$10$8f91406ae3d642f29e38cOrQFMsTQ0MdmAfQOlYIgfgYIRfS1ZpDu','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'46157968bc86e2bd18d543864885d881',1,'2016-03-31 08:08:47',1,NULL,NULL),(16,'Waruni5','$2a$10$91e1a417969f392a6eba1Oc3LsDXho9I/ym48uprSuzXbHlUF.dUG','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'6119c2bfe9c9c56f5b376b74658a730f',1,'2016-03-31 08:12:11',1,NULL,NULL),(17,'Waruni6','$2a$10$68be338f58f04dd3dbe05uMvO0KUAw9NjsGcoos.Oh1zwZsYvsQLa','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'c5c6b8516aa974ddc0f291f7b04e7e9e',3,'2016-03-31 08:13:04',1,'2016-03-31 14:53:26',15),(18,'Waruni7','$2a$10$6e7d411a25874500f6491uXxKTOJgdFRUXEDj9tidrazbNKkvPGTa','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'86ade512c87681cdaff5a596e64b15c7',3,'2016-03-31 08:13:32',15,'2016-03-31 15:06:53',15),(19,'Waruni8','$2a$10$e77c486b713ee7c9e4ecdu9oY0brQIZBQsiRzoKbd2ynZxQEawul2','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'ae190b27059e980368c6049083eb0523',2,'2016-03-31 13:24:42',15,NULL,NULL),(22,'Waruni8','$2a$10$9b853fdb146842fa0e66eucJwJOU0sW3CRumx7iBmgRBjyknU/0zu','Waruni Samarawickrama new','warunish@gmail.com','0717584228',1,'9596b131f116207898fa4411dd900b17',2,'2016-03-31 13:31:33',15,NULL,NULL),(23,'Waruni8','$2a$10$94e23a57818d0e21ad782uBXt3oxBh/OmjPgdaBgXhYmpxFDr7r82','Waruni Samarawickrama new','warunish@gmail.com','0717584228',1,'bfd1ad25077fb3d01d7e55ce9e5d9d88',3,'2016-03-31 13:38:30',15,'2016-03-31 14:41:55',15),(24,'hasitha2','$2a$10$a10f4a19fad93063b9191eiiM3zRYM7OW1rRmeEyufLvjb4C30Hwu','aaaaaaaaa','ghasithalakmal@gmail.com','0717567855',1,'8f65cf5303781bd6e2c6a4ccf71ac0a9',2,'2016-03-31 16:18:20',15,'2016-04-01 05:10:48',15),(25,'hasitha2','$2a$10$8a4d1fc11a36b4fc147a4ui80tnIKTnM33HNUEuobQFHuLfU0L9gC','Hasitha Lakmal','ghasithalakmal@gmail.com','0756780065',1,'9c754261896170f596a3e131ecf24ef3',2,'2016-03-31 16:21:10',15,'2016-04-01 05:10:48',15),(26,'hasitha2','$2a$10$ef1c4acfe453c94103071uQ45ZlSK.uBHgDFSv3cAgQV4YaHE4sY2','Hasitha Lakmal Gamage','ghasithalakmal@gmail.com','0756780065',1,'c42569a9eb2bfd0a5757e2e5b9956694',2,'2016-03-31 16:29:48',15,'2016-04-01 05:10:48',15),(27,'ucsc1','$2a$10$981b95a7f251955879d90uTCGOoo8mD9p8loxfIpkxfnJoDtc1wyK','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'15522f5f30d795c7405c4f35237367ed',1,'2016-04-01 01:25:32',3,NULL,NULL),(28,'ucsc2','$2a$10$7440ffa7de92bded8d56bu0XnWbyg9Yu7HN2tOjIqo8.fFI5zS4/O','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'d1bb1a710754162bd5552e6cc571f9f6',1,'2016-04-01 01:29:16',3,NULL,NULL),(29,'ucsc3','$2a$10$d8cf55ae89698631106fau5p7b0beN9b75Ea5ruxBINSt4x/b2uea','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'961c1f289c4ae1c9ef9f626339099956',1,'2016-04-01 05:05:14',3,NULL,NULL),(30,'ucsc4','$2a$10$5b63ccc5255aed2a966d8u2xeOrOyDM9N2CeXXz3SEghVE2vspqLa','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'e288534cf8cf72e104359dc2da404781',1,'2016-04-01 05:05:20',3,NULL,NULL),(31,'ucsc5','$2a$10$7320817b99bee29976fb2eF2h6d22YTUgqQz/QjNgw7mDFGU7df.O','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'257911627d8fa314564073c3421cde25',1,'2016-04-01 05:05:25',3,NULL,NULL),(32,'hasitha2','$2a$10$bdda4b37d5f56b19df1bdewUbitZcTF/12Zf9gvnoVLmYFXprejCi','Hasitha Lakmal new','ghasithalakmal@gmail.com','0717584227',1,'b0f36a158b02ffc07b51901913176a34',1,'2016-04-01 05:10:48',15,NULL,NULL),(33,'Hasitha12','$2a$10$a503a142cba66b50855fcebN4BZ0B0Xakd.73vAs0j9fOcOwKEViS','Hasitha Lakmal Gamage','ghasithalakmal@gmail.com','0756780065',1,'a12493b9674cfb5bea03bdc757341555',1,'2016-04-01 05:17:53',3,NULL,NULL),(34,'Hasitha13','$2a$10$eb955fdda41001c3be4eeOG4yq7tyXd8wF3L3wwCwUUWTVS5SjWsa','Hasitha Lakmal Gamage','ghasithalakmal@gmail.com','0756780065',1,'6e3287653a2aa72c5288129ab8e36a8c',1,'2016-04-01 06:44:56',3,NULL,NULL),(35,'Hasitha15','$2a$10$9578051f3530538b3b622u077z/69IOqkaOSbpuT2kXVqtnk91TK6','Hasitha Lakmal Gamage','ghasithalakmal@gmail.com','0756780065',1,'698627760f1061bf41808c2c9120e2f5',3,'2016-04-01 09:58:36',3,'2016-04-01 10:04:28',15),(36,'Hasitha18','$2a$10$ebc34b58e033ded6c0fcbO5I04/hsbkXt5/HzUOKNI4R70ZRPVcw6','Hasitha Lakmal Gamage','ghasithalakmal@gmail.com','0756780065',1,'4b1e8d9b81b1425ee92d0dce5bf46ba7',1,'2016-04-03 00:34:43',3,NULL,NULL),(37,'hasitha3','$2a$10$94929466608d9a5672cb1OdQODEgmo5dyIk8HV3JrerOb8/KM/D/e','Hasitha Lakmal','ghasithalakmal@gmail.com','0717584227',1,'ddd6531252523af43500fff973d82b90',3,'2016-04-03 00:35:13',15,'2016-04-03 00:36:01',15);
+/*!40000 ALTER TABLE `operational_user` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Temporary view structure for view `operational_user_view`
@@ -1166,6 +1381,15 @@ CREATE TABLE `place` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `place`
+--
+
+LOCK TABLES `place` WRITE;
+/*!40000 ALTER TABLE `place` DISABLE KEYS */;
+/*!40000 ALTER TABLE `place` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `prefect_group`
 --
 
@@ -1185,6 +1409,15 @@ CREATE TABLE `prefect_group` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `prefect_group`
+--
+
+LOCK TABLES `prefect_group` WRITE;
+/*!40000 ALTER TABLE `prefect_group` DISABLE KEYS */;
+/*!40000 ALTER TABLE `prefect_group` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `prefect_possition`
 --
 
@@ -1202,6 +1435,15 @@ CREATE TABLE `prefect_possition` (
   PRIMARY KEY (`pos_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `prefect_possition`
+--
+
+LOCK TABLES `prefect_possition` WRITE;
+/*!40000 ALTER TABLE `prefect_possition` DISABLE KEYS */;
+/*!40000 ALTER TABLE `prefect_possition` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `prefect_report`
@@ -1254,6 +1496,15 @@ CREATE TABLE `prefect_report` (
   CONSTRAINT `prf_section_detail` FOREIGN KEY (`prf_section_id`) REFERENCES `prefect_section` (`sec_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `prefect_report`
+--
+
+LOCK TABLES `prefect_report` WRITE;
+/*!40000 ALTER TABLE `prefect_report` DISABLE KEYS */;
+/*!40000 ALTER TABLE `prefect_report` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Temporary view structure for view `prefect_report_view`
@@ -1333,6 +1584,15 @@ CREATE TABLE `prefect_section` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `prefect_section`
+--
+
+LOCK TABLES `prefect_section` WRITE;
+/*!40000 ALTER TABLE `prefect_section` DISABLE KEYS */;
+/*!40000 ALTER TABLE `prefect_section` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `prefect_talant`
 --
 
@@ -1355,6 +1615,15 @@ CREATE TABLE `prefect_talant` (
   CONSTRAINT `prf_tal_id` FOREIGN KEY (`prf_tal_id`) REFERENCES `talants` (`tal_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `prefect_talant`
+--
+
+LOCK TABLES `prefect_talant` WRITE;
+/*!40000 ALTER TABLE `prefect_talant` DISABLE KEYS */;
+/*!40000 ALTER TABLE `prefect_talant` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Temporary view structure for view `prf_tal_view_by_stu_id`
@@ -1428,6 +1697,15 @@ CREATE TABLE `project` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `project`
+--
+
+LOCK TABLES `project` WRITE;
+/*!40000 ALTER TABLE `project` DISABLE KEYS */;
+/*!40000 ALTER TABLE `project` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Temporary view structure for view `project_view`
 --
 
@@ -1481,6 +1759,15 @@ CREATE TABLE `qualification` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `qualification`
+--
+
+LOCK TABLES `qualification` WRITE;
+/*!40000 ALTER TABLE `qualification` DISABLE KEYS */;
+/*!40000 ALTER TABLE `qualification` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `qualification_type`
 --
 
@@ -1498,6 +1785,15 @@ CREATE TABLE `qualification_type` (
   PRIMARY KEY (`qul_typ_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `qualification_type`
+--
+
+LOCK TABLES `qualification_type` WRITE;
+/*!40000 ALTER TABLE `qualification_type` DISABLE KEYS */;
+/*!40000 ALTER TABLE `qualification_type` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `recommendation`
@@ -1526,6 +1822,15 @@ CREATE TABLE `recommendation` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `recommendation`
+--
+
+LOCK TABLES `recommendation` WRITE;
+/*!40000 ALTER TABLE `recommendation` DISABLE KEYS */;
+/*!40000 ALTER TABLE `recommendation` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `recommendation_type`
 --
 
@@ -1543,6 +1848,15 @@ CREATE TABLE `recommendation_type` (
   PRIMARY KEY (`rec_type_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `recommendation_type`
+--
+
+LOCK TABLES `recommendation_type` WRITE;
+/*!40000 ALTER TABLE `recommendation_type` DISABLE KEYS */;
+/*!40000 ALTER TABLE `recommendation_type` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `result`
@@ -1570,6 +1884,16 @@ CREATE TABLE `result` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `result`
+--
+
+LOCK TABLES `result` WRITE;
+/*!40000 ALTER TABLE `result` DISABLE KEYS */;
+INSERT INTO `result` VALUES (1,1,2010,'A','12345',1,'2016-03-26 00:20:10',1,NULL,NULL),(1,1,2011,'A','12345',1,'2016-03-26 00:20:10',1,NULL,NULL),(1,2,2010,'A','12345',1,'2016-03-26 00:20:10',1,NULL,NULL),(1,3,2012,'A','12345',1,'2016-03-26 00:20:10',1,NULL,NULL),(2,1,2010,'A','12345',1,'2016-03-26 00:20:10',1,NULL,NULL),(2,1,2011,'A','12345',1,'2016-03-26 00:20:10',1,NULL,NULL),(2,2,2010,'A','12345',1,'2016-03-26 00:20:10',1,NULL,NULL),(2,3,2012,'A','12345',1,'2016-03-26 00:20:10',1,NULL,NULL),(3,1,2010,'A','12345',1,'2016-03-26 00:20:10',1,NULL,NULL),(3,1,2011,'A','12345',1,'2016-03-26 00:20:10',1,NULL,NULL),(3,2,2010,'A','12345',1,'2016-03-26 00:20:10',1,NULL,NULL),(3,3,2012,'A','12345',1,'2016-03-26 00:20:10',1,NULL,NULL);
+/*!40000 ALTER TABLE `result` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `school`
 --
 
@@ -1588,6 +1912,16 @@ CREATE TABLE `school` (
   PRIMARY KEY (`sch_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `school`
+--
+
+LOCK TABLES `school` WRITE;
+/*!40000 ALTER TABLE `school` DISABLE KEYS */;
+INSERT INTO `school` VALUES (1,'sch1','maharagama',1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'sch2','maharagama',1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'sch3','piliyandala',1,'2016-03-26 00:20:10',1,NULL,NULL);
+/*!40000 ALTER TABLE `school` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Temporary view structure for view `school_view`
@@ -1633,6 +1967,15 @@ CREATE TABLE `siblings` (
   CONSTRAINT `stu_id` FOREIGN KEY (`stu_id`) REFERENCES `student` (`stu_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `siblings`
+--
+
+LOCK TABLES `siblings` WRITE;
+/*!40000 ALTER TABLE `siblings` DISABLE KEYS */;
+/*!40000 ALTER TABLE `siblings` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Temporary view structure for view `stu_details_view`
@@ -2041,6 +2384,16 @@ CREATE TABLE `student` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `student`
+--
+
+LOCK TABLES `student` WRITE;
+/*!40000 ALTER TABLE `student` DISABLE KEYS */;
+INSERT INTO `student` VALUES (1,'00001','stu1','s1','Male','1992-06-17','123456789','123456789','123aaaa','colombo',10,1,1,1,'gm@gm.com',NULL,NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'00002','stu2','s2','Male','1992-06-17','123456789','123456789','123aaaa','colombo',10,2,2,1,'gm@gm.com',NULL,NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'00003','stu3','s3','Male','1992-06-17','123456789','123456789','123aaaa','colombo',10,1,1,1,'gm@gm.com',NULL,NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(4,'00004','stu4','s4','Male','1992-06-17','123456789','123456789','123aaaa','colombo',10,2,2,2,'gm@gm.com',NULL,NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(5,'00005','stu5','s5','Male','1992-06-17','123456789','123456789','123aaaa','colombo',10,3,3,3,'gm@gm.com',NULL,NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL);
+/*!40000 ALTER TABLE `student` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `student_class`
 --
 
@@ -2069,6 +2422,15 @@ CREATE TABLE `student_class` (
   CONSTRAINT `stu_detailsnew` FOREIGN KEY (`stu_id`) REFERENCES `student` (`stu_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `student_class`
+--
+
+LOCK TABLES `student_class` WRITE;
+/*!40000 ALTER TABLE `student_class` DISABLE KEYS */;
+/*!40000 ALTER TABLE `student_class` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Temporary view structure for view `student_class_view`
@@ -2265,6 +2627,16 @@ CREATE TABLE `student_diseases` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `student_diseases`
+--
+
+LOCK TABLES `student_diseases` WRITE;
+/*!40000 ALTER TABLE `student_diseases` DISABLE KEYS */;
+INSERT INTO `student_diseases` VALUES (1,1,2015,1,'2016-03-26 00:20:10',1,NULL,NULL),(1,2,2010,1,'2016-03-26 00:20:10',1,NULL,NULL),(2,1,2015,1,'2016-03-26 00:20:10',1,NULL,NULL);
+/*!40000 ALTER TABLE `student_diseases` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Temporary view structure for view `student_diseases_view`
 --
 
@@ -2310,6 +2682,15 @@ CREATE TABLE `student_donation` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `student_donation`
+--
+
+LOCK TABLES `student_donation` WRITE;
+/*!40000 ALTER TABLE `student_donation` DISABLE KEYS */;
+/*!40000 ALTER TABLE `student_donation` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `student_school`
 --
 
@@ -2334,6 +2715,16 @@ CREATE TABLE `student_school` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `student_school`
+--
+
+LOCK TABLES `student_school` WRITE;
+/*!40000 ALTER TABLE `student_school` DISABLE KEYS */;
+INSERT INTO `student_school` VALUES (1,1,2000,2005,1,'2016-03-26 00:20:10',1,NULL,NULL),(1,2,2005,2011,1,'2016-03-26 00:20:10',1,NULL,NULL),(2,3,2001,2010,1,'2016-03-26 00:20:10',1,NULL,NULL);
+/*!40000 ALTER TABLE `student_school` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `talants`
 --
 
@@ -2351,6 +2742,16 @@ CREATE TABLE `talants` (
   PRIMARY KEY (`tal_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `talants`
+--
+
+LOCK TABLES `talants` WRITE;
+/*!40000 ALTER TABLE `talants` DISABLE KEYS */;
+INSERT INTO `talants` VALUES (1,'tal1',1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'tal2',1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'tal3',1,'2016-03-26 00:20:10',1,NULL,NULL),(4,'talent1',1,'2016-04-03 06:28:43',27,NULL,NULL);
+/*!40000 ALTER TABLE `talants` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `teacher`
@@ -2395,6 +2796,16 @@ CREATE TABLE `teacher` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `teacher`
+--
+
+LOCK TABLES `teacher` WRITE;
+/*!40000 ALTER TABLE `teacher` DISABLE KEYS */;
+INSERT INTO `teacher` VALUES (1,'tea1','aaa','123456789','123456789','123aaaa',NULL,'a',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'tea2','aaa','123456789','123456789','123aaaa',NULL,'a',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'tea3','aaa','123456789','123456789','123aaaa',NULL,'a',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(4,'tea4','aaa','123456789','123456789','123aaaa',NULL,'a',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(5,'tea5','aaa','123456789','123456789','123aaaa',NULL,'a',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL);
+/*!40000 ALTER TABLE `teacher` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `teacher_class`
 --
 
@@ -2419,6 +2830,16 @@ CREATE TABLE `teacher_class` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `teacher_class`
+--
+
+LOCK TABLES `teacher_class` WRITE;
+/*!40000 ALTER TABLE `teacher_class` DISABLE KEYS */;
+INSERT INTO `teacher_class` VALUES (2000,1,1,1,'2016-03-26 00:20:10',1,NULL,NULL),(2000,2,2,1,'2016-03-26 00:20:10',1,NULL,NULL),(2000,3,3,1,'2016-03-26 00:20:10',1,NULL,NULL),(2000,4,4,1,'2016-03-26 00:20:10',1,NULL,NULL),(2000,5,5,1,'2016-03-26 00:20:10',1,NULL,NULL),(2001,1,1,1,'2016-03-26 00:20:10',1,NULL,NULL),(2001,2,3,1,'2016-03-26 00:20:10',1,NULL,NULL),(2001,3,2,1,'2016-03-26 00:20:10',1,NULL,NULL),(2002,1,3,1,'2016-03-26 00:20:10',1,NULL,NULL),(2002,2,2,1,'2016-03-26 00:20:10',1,NULL,NULL);
+/*!40000 ALTER TABLE `teacher_class` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `teacher_qualification`
 --
 
@@ -2440,6 +2861,15 @@ CREATE TABLE `teacher_qualification` (
   PRIMARY KEY (`tea_id`,`qul_id`,`tea_qul_discription`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `teacher_qualification`
+--
+
+LOCK TABLES `teacher_qualification` WRITE;
+/*!40000 ALTER TABLE `teacher_qualification` DISABLE KEYS */;
+/*!40000 ALTER TABLE `teacher_qualification` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Temporary view structure for view `techer_class_view`
@@ -2513,6 +2943,16 @@ CREATE TABLE `user_category` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `user_category`
+--
+
+LOCK TABLES `user_category` WRITE;
+/*!40000 ALTER TABLE `user_category` DISABLE KEYS */;
+INSERT INTO `user_category` VALUES (1,'admin','superuser',1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'R&D indcharge','Research and development unit incharge',1,'2016-04-01 05:40:36',15,NULL,NULL),(3,'Exam incharge','Exam unit incharge',1,'2016-04-01 05:41:53',15,NULL,NULL);
+/*!40000 ALTER TABLE `user_category` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `vidusarana`
 --
 
@@ -2531,6 +2971,15 @@ CREATE TABLE `vidusarana` (
   PRIMARY KEY (`vid_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `vidusarana`
+--
+
+LOCK TABLES `vidusarana` WRITE;
+/*!40000 ALTER TABLE `vidusarana` DISABLE KEYS */;
+/*!40000 ALTER TABLE `vidusarana` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Dumping events for database 'svdims'
@@ -2873,4 +3322,4 @@ CREATE TABLE `vidusarana` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-04-07 12:51:49
+-- Dump completed on 2016-04-07 12:50:54

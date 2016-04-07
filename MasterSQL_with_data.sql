@@ -454,7 +454,7 @@ CREATE TABLE `exam` (
   `recode_modified_at` timestamp NULL DEFAULT NULL,
   `recode_modified_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`exm_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=49 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -463,7 +463,7 @@ CREATE TABLE `exam` (
 
 LOCK TABLES `exam` WRITE;
 /*!40000 ALTER TABLE `exam` DISABLE KEYS */;
-INSERT INTO `exam` VALUES (1,'exm1','aaaaa',3,'2016-03-26 00:20:10',1,NULL,NULL),(2,'exm2','aaaaa',3,'2016-03-26 00:20:10',1,NULL,NULL),(3,'exm3','aaaaa',3,'2016-03-26 00:20:10',1,NULL,NULL),(4,'exam1','aaaaaaaaaaa',3,'2016-04-01 11:55:07',15,'2016-04-02 15:25:49',27),(5,'exam2','aaaaaaaaaaa',3,'2016-04-01 11:59:22',27,'2016-04-02 15:25:37',27),(6,'exam3','aaaaaaaaaaa',3,'2016-04-02 14:30:43',27,'2016-04-02 14:48:07',27),(7,'exam4','aaaaaaaaaaa',3,'2016-04-02 14:32:14',27,'2016-04-02 14:58:30',27),(8,'exam3','updated',3,'2016-04-02 14:46:14',27,'2016-04-02 14:48:07',27),(9,'exam3','updated',3,'2016-04-02 14:48:07',27,NULL,NULL),(10,'exam4','updated',3,'2016-04-02 14:58:30',27,'2016-04-02 15:00:46',27),(11,'exam1','updated',3,'2016-04-02 15:25:49',27,NULL,NULL),(12,'exam4','aaaaaaaaaaa',3,'2016-04-02 15:25:57',27,NULL,NULL),(13,'exam4','aaaaaaaaaaa',3,'2016-04-02 15:33:15',27,NULL,NULL),(14,'exam44','aaaaaaaaaaa',2,'2016-04-02 15:35:43',27,NULL,NULL),(15,'exm8','aaaaaaaaaaa',2,'2016-04-02 23:35:25',27,NULL,NULL),(16,'exm9','aaaaaaaaaaa',2,'2016-04-02 23:35:45',27,NULL,NULL),(17,'exm10','aaaaaaaaaaa',2,'2016-04-02 23:36:10',27,NULL,NULL),(18,'exm1','aaaaaaaaaaa',2,'2016-04-02 23:36:41',27,NULL,NULL),(19,'exm2','aaaaaaaaaaa',2,'2016-04-02 23:36:44',27,'2016-04-02 23:39:47',27),(20,'exm3','aaaaaaaaaaa',2,'2016-04-02 23:36:47',27,'2016-04-02 23:41:28',27),(21,'exm4','aaaaaaaaaaa',3,'2016-04-02 23:36:51',27,'2016-04-02 23:41:45',27),(22,'exm5','aaaaaaaaaaa',3,'2016-04-02 23:36:55',27,'2016-04-02 23:41:50',27),(23,'exm6','aaaaaaaaaaa',2,'2016-04-02 23:36:59',27,NULL,NULL),(24,'exm7','aaaaaaaaaaa',2,'2016-04-02 23:37:03',27,NULL,NULL),(25,'exam8','aaaaaaaaaaa',2,'2016-04-02 23:38:13',27,NULL,NULL),(26,'exam7','aaaaaaaaaaa',2,'2016-04-02 23:38:21',27,NULL,NULL),(27,'exm2','updated',2,'2016-04-02 23:39:47',27,NULL,NULL),(28,'exm3','updated',2,'2016-04-02 23:41:28',27,NULL,NULL),(29,'exam41','aaaaaaaaaaa',2,'2016-04-02 23:53:26',27,NULL,NULL),(30,'exam42','aaaaaaaaaaa',2,'2016-04-02 23:53:35',27,NULL,NULL),(31,'exam43','aaaaaaaaaaa',2,'2016-04-02 23:53:39',27,NULL,NULL),(32,'exam4','aaaaaaaaaaa',2,'2016-04-02 23:56:49',27,NULL,NULL),(33,'exam4','aaaaaaaaaaa',2,'2016-04-02 23:56:55',27,NULL,NULL),(34,'exam4','aaaaaaaaaaa',2,'2016-04-02 23:57:00',27,NULL,NULL),(35,'exam4','aaaaaaaaaaa',2,'2016-04-02 23:57:26',27,NULL,NULL),(36,'exam4','aaaaaaaaaaa',2,'2016-04-02 23:58:15',27,NULL,NULL),(37,'exam4','aaaaaaaaaaa',2,'2016-04-03 00:01:49',27,NULL,NULL),(38,'exam massa','aaaaaaaaaaa',1,'2016-04-03 00:04:54',27,NULL,NULL),(39,'exam4','aaaaaaaaaaa',1,'2016-04-03 00:07:51',27,NULL,NULL),(40,'wwwww','massa exam',1,'2016-04-03 00:10:35',27,NULL,NULL),(41,'exajjj','aaaaaaaaaaa',1,'2016-04-03 00:11:47',27,NULL,NULL),(42,'qqq','aaaaaaaaaaa',2,'2016-04-03 00:14:48',27,'2016-04-03 00:16:31',27),(43,'qqqee','aaaaaaaaaaa',1,'2016-04-03 00:16:05',27,NULL,NULL),(44,'qqq','updated',3,'2016-04-03 00:16:31',27,'2016-04-03 00:16:47',27),(45,'qqqwwee','aaaaaaaaaaa',1,'2016-04-03 00:18:06',27,NULL,NULL),(46,'qqqqaaaddd','aaaaaaaaaaa',1,'2016-04-03 00:25:21',27,NULL,NULL);
+INSERT INTO `exam` VALUES (1,'exm1','aaaaa',3,'2016-03-26 00:20:10',1,NULL,NULL),(2,'exm2','aaaaa',3,'2016-03-26 00:20:10',1,NULL,NULL),(3,'exm3','aaaaa',3,'2016-03-26 00:20:10',1,NULL,NULL),(4,'exam1','aaaaaaaaaaa',3,'2016-04-01 11:55:07',15,'2016-04-02 15:25:49',27),(5,'exam2','aaaaaaaaaaa',3,'2016-04-01 11:59:22',27,'2016-04-02 15:25:37',27),(6,'exam3','aaaaaaaaaaa',3,'2016-04-02 14:30:43',27,'2016-04-02 14:48:07',27),(7,'exam4','aaaaaaaaaaa',3,'2016-04-02 14:32:14',27,'2016-04-02 14:58:30',27),(8,'exam3','updated',3,'2016-04-02 14:46:14',27,'2016-04-02 14:48:07',27),(9,'exam3','updated',3,'2016-04-02 14:48:07',27,NULL,NULL),(10,'exam4','updated',3,'2016-04-02 14:58:30',27,'2016-04-02 15:00:46',27),(11,'exam1','updated',3,'2016-04-02 15:25:49',27,NULL,NULL),(12,'exam4','aaaaaaaaaaa',3,'2016-04-02 15:25:57',27,NULL,NULL),(13,'exam4','aaaaaaaaaaa',3,'2016-04-02 15:33:15',27,NULL,NULL),(14,'exam44','aaaaaaaaaaa',2,'2016-04-02 15:35:43',27,NULL,NULL),(15,'exm8','aaaaaaaaaaa',2,'2016-04-02 23:35:25',27,NULL,NULL),(16,'exm9','aaaaaaaaaaa',2,'2016-04-02 23:35:45',27,NULL,NULL),(17,'exm10','aaaaaaaaaaa',2,'2016-04-02 23:36:10',27,NULL,NULL),(18,'exm1','aaaaaaaaaaa',2,'2016-04-02 23:36:41',27,NULL,NULL),(19,'exm2','aaaaaaaaaaa',2,'2016-04-02 23:36:44',27,'2016-04-02 23:39:47',27),(20,'exm3','aaaaaaaaaaa',2,'2016-04-02 23:36:47',27,'2016-04-02 23:41:28',27),(21,'exm4','aaaaaaaaaaa',3,'2016-04-02 23:36:51',27,'2016-04-02 23:41:45',27),(22,'exm5','aaaaaaaaaaa',3,'2016-04-02 23:36:55',27,'2016-04-02 23:41:50',27),(23,'exm6','aaaaaaaaaaa',2,'2016-04-02 23:36:59',27,NULL,NULL),(24,'exm7','aaaaaaaaaaa',2,'2016-04-02 23:37:03',27,NULL,NULL),(25,'exam8','aaaaaaaaaaa',2,'2016-04-02 23:38:13',27,NULL,NULL),(26,'exam7','aaaaaaaaaaa',2,'2016-04-02 23:38:21',27,NULL,NULL),(27,'exm2','updated',2,'2016-04-02 23:39:47',27,NULL,NULL),(28,'exm3','updated',2,'2016-04-02 23:41:28',27,NULL,NULL),(29,'exam41','aaaaaaaaaaa',2,'2016-04-02 23:53:26',27,NULL,NULL),(30,'exam42','aaaaaaaaaaa',2,'2016-04-02 23:53:35',27,NULL,NULL),(31,'exam43','aaaaaaaaaaa',2,'2016-04-02 23:53:39',27,NULL,NULL),(32,'exam4','aaaaaaaaaaa',2,'2016-04-02 23:56:49',27,NULL,NULL),(33,'exam4','aaaaaaaaaaa',2,'2016-04-02 23:56:55',27,NULL,NULL),(34,'exam4','aaaaaaaaaaa',2,'2016-04-02 23:57:00',27,NULL,NULL),(35,'exam4','aaaaaaaaaaa',2,'2016-04-02 23:57:26',27,NULL,NULL),(36,'exam4','aaaaaaaaaaa',2,'2016-04-02 23:58:15',27,NULL,NULL),(37,'exam4','aaaaaaaaaaa',2,'2016-04-03 00:01:49',27,NULL,NULL),(38,'exam massa','aaaaaaaaaaa',1,'2016-04-03 00:04:54',27,NULL,NULL),(39,'exam4','aaaaaaaaaaa',1,'2016-04-03 00:07:51',27,NULL,NULL),(40,'wwwww','massa exam',1,'2016-04-03 00:10:35',27,NULL,NULL),(41,'exajjj','aaaaaaaaaaa',1,'2016-04-03 00:11:47',27,NULL,NULL),(42,'qqq','aaaaaaaaaaa',2,'2016-04-03 00:14:48',27,'2016-04-03 00:16:31',27),(43,'qqqee','aaaaaaaaaaa',1,'2016-04-03 00:16:05',27,NULL,NULL),(44,'qqq','updated',3,'2016-04-03 00:16:31',27,'2016-04-03 00:16:47',27),(45,'qqqwwee','aaaaaaaaaaa',1,'2016-04-03 00:18:06',27,NULL,NULL),(46,'qqqqaaaddd','aaaaaaaaaaa',1,'2016-04-03 00:25:21',27,NULL,NULL),(47,'wwwwwkaaa','massa exam',1,'2016-04-06 09:39:11',27,NULL,NULL),(48,'wwwwwk','null',1,'2016-04-06 09:46:55',27,NULL,NULL);
 /*!40000 ALTER TABLE `exam` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -544,6 +544,8 @@ CREATE TABLE `father` (
   `far_stu_addmision_number` varchar(45) DEFAULT NULL,
   `far_old_student_number` varchar(45) DEFAULT NULL,
   `far_other_interactions_with_dp` varchar(45) DEFAULT NULL,
+  `far_nic` int(11) DEFAULT NULL,
+  `far_tea_id` int(11) DEFAULT NULL,
   `status` int(11) DEFAULT '1',
   `recode_added_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `recode_added_by` int(11) DEFAULT NULL,
@@ -551,6 +553,8 @@ CREATE TABLE `father` (
   `recode_modified_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`far_id`),
   KEY `occ_type_id_idx` (`far_occupation_type`),
+  KEY `far_tea_id_idx` (`far_tea_id`),
+  CONSTRAINT `far_tea_id` FOREIGN KEY (`far_tea_id`) REFERENCES `teacher` (`tea_id`),
   CONSTRAINT `occ_type_id` FOREIGN KEY (`far_occupation_type`) REFERENCES `occupation_type` (`occ_type_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -561,7 +565,7 @@ CREATE TABLE `father` (
 
 LOCK TABLES `father` WRITE;
 /*!40000 ALTER TABLE `father` DISABLE KEYS */;
-INSERT INTO `father` VALUES (1,'far1','01111','123hhhh','ghasithalakmal@gmail.com','techer',1,'123aaaa','123456789',NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'far2','01111','123hhhh','ghasithalakmal@gmail.com','techer',2,'123aaaa','123456789',NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'far3','01111','123hhhh','ghasithalakmal@gmail.com','techer',1,'123aaaa','123456789',NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL);
+INSERT INTO `father` VALUES (1,'far1','01111','123hhhh','ghasithalakmal@gmail.com','techer',1,'123aaaa','123456789',NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'far2','01111','123hhhh','ghasithalakmal@gmail.com','techer',2,'123aaaa','123456789',NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'far3','01111','123hhhh','ghasithalakmal@gmail.com','techer',1,'123aaaa','123456789',NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL);
 /*!40000 ALTER TABLE `father` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -821,6 +825,8 @@ CREATE TABLE `guardian` (
   `gur_occupation _type` int(11) DEFAULT NULL,
   `gur_office_address` varchar(45) DEFAULT NULL,
   `gur_office_phone_number` varchar(45) DEFAULT NULL,
+  `gar_nic` int(11) DEFAULT NULL,
+  `gar_tea_id` int(11) DEFAULT NULL,
   `status` int(11) DEFAULT '1',
   `recode_added_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `recode_added_by` int(11) DEFAULT NULL,
@@ -828,6 +834,8 @@ CREATE TABLE `guardian` (
   `recode_modified_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`gur_id`),
   KEY `ocu_id_idx` (`gur_occupation _type`),
+  KEY `gar_tea_id_idx` (`gar_tea_id`),
+  CONSTRAINT `gar_tea_id` FOREIGN KEY (`gar_tea_id`) REFERENCES `teacher` (`tea_id`),
   CONSTRAINT `ocu_id` FOREIGN KEY (`gur_occupation _type`) REFERENCES `occupation_type` (`occ_type_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -838,7 +846,7 @@ CREATE TABLE `guardian` (
 
 LOCK TABLES `guardian` WRITE;
 /*!40000 ALTER TABLE `guardian` DISABLE KEYS */;
-INSERT INTO `guardian` VALUES (1,'gar1','123456789','123aaaa','gha@gma.com','aaa',1,'123aaa','123456789',1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'gar2','123456789','123aaaa','gha@gma.com','aaa',2,'123aaa','123456789',1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'gar3','123456789','123aaaa','gha@gma.com','aaa',3,'123aaa','123456789',1,'2016-03-26 00:20:10',1,NULL,NULL);
+INSERT INTO `guardian` VALUES (1,'gar1','123456789','123aaaa','gha@gma.com','aaa',1,'123aaa','123456789',NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'gar2','123456789','123aaaa','gha@gma.com','aaa',2,'123aaa','123456789',NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'gar3','123456789','123aaaa','gha@gma.com','aaa',3,'123aaa','123456789',NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL);
 /*!40000 ALTER TABLE `guardian` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -957,6 +965,8 @@ CREATE TABLE `mother` (
   `mot_stu_addmision_number` varchar(45) DEFAULT NULL,
   `mot_old_student_number` varchar(45) DEFAULT NULL,
   `mot_other_interactions_with_dp` varchar(45) DEFAULT NULL,
+  `mot_nic` int(11) DEFAULT NULL,
+  `mot_tea_id` int(11) DEFAULT NULL,
   `status` int(11) DEFAULT '1',
   `recode_added_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `recode_added_by` int(11) DEFAULT NULL,
@@ -964,6 +974,8 @@ CREATE TABLE `mother` (
   `recode_modified_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`mot_id`),
   KEY `occ_type_detail_idx` (`mot_occupation _type`),
+  KEY `mot_tea_id_idx` (`mot_tea_id`),
+  CONSTRAINT `mot_tea_id` FOREIGN KEY (`mot_tea_id`) REFERENCES `teacher` (`tea_id`),
   CONSTRAINT `occ_type_detail` FOREIGN KEY (`mot_occupation _type`) REFERENCES `occupation_type` (`occ_type_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -974,7 +986,7 @@ CREATE TABLE `mother` (
 
 LOCK TABLES `mother` WRITE;
 /*!40000 ALTER TABLE `mother` DISABLE KEYS */;
-INSERT INTO `mother` VALUES (1,'mot1','123456789','123aaaa','gh@gmail','mmmm',1,'123aaa','123456789',NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'mot2','123456789','123aaaa','gh@gmail','mmmm',2,'123aaa','123456789',NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'mot3','123456789','123aaaa','gh@gmail','mmmm',1,'123aaa','123456789',NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL);
+INSERT INTO `mother` VALUES (1,'mot1','123456789','123aaaa','gh@gmail','mmmm',1,'123aaa','123456789',NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'mot2','123456789','123aaaa','gh@gmail','mmmm',2,'123aaa','123456789',NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'mot3','123456789','123aaaa','gh@gmail','mmmm',1,'123aaa','123456789',NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL);
 /*!40000 ALTER TABLE `mother` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1249,7 +1261,7 @@ CREATE TABLE `occupation_type` (
   `recode_modified_at` timestamp NULL DEFAULT NULL,
   `recode_modified_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`occ_type_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -1258,7 +1270,7 @@ CREATE TABLE `occupation_type` (
 
 LOCK TABLES `occupation_type` WRITE;
 /*!40000 ALTER TABLE `occupation_type` DISABLE KEYS */;
-INSERT INTO `occupation_type` VALUES (1,'teacher','school teacher',1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'Software Engineer','SE',1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'police','police officer',1,'2016-03-26 00:20:10',1,NULL,NULL);
+INSERT INTO `occupation_type` VALUES (1,'teacher','school teacher',1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'Software Engineer','SE',1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'police','police officer',1,'2016-03-26 00:20:10',1,NULL,NULL),(4,'coup1','massa',2,'2016-04-06 10:22:59',27,'2016-04-07 05:19:26',27),(5,'coup2','massa',1,'2016-04-06 10:41:36',27,NULL,NULL),(6,'ocu12','aaaaaaaaaaa',1,'2016-04-07 01:07:55',1,NULL,NULL),(7,'ocu14','aaaaaaaaaaa',1,'2016-04-07 01:14:32',1,NULL,NULL),(8,'ocu15','aaaaaaaaaaa',1,'2016-04-07 01:15:16',1,NULL,NULL);
 /*!40000 ALTER TABLE `occupation_type` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1295,7 +1307,7 @@ CREATE TABLE `operational_user` (
 
 LOCK TABLES `operational_user` WRITE;
 /*!40000 ALTER TABLE `operational_user` DISABLE KEYS */;
-INSERT INTO `operational_user` VALUES (1,'hasitha','$2a$10$d04ee9b3b685050aea7dauT/ipJNaosa18fQ2q71pQeGS.I9Ev8Du','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'e57598603448df03a0c99652319c6ffc',1,'2016-03-31 03:58:07',1,NULL,NULL),(2,'hasitha2','$2a$10$12b9e5760815de84017d0e83GWRasG1buLYY/pvugSEFv4ZymNyPa','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'fae91e80dcfe44c6677a1ff6c92c6422',2,'2016-03-31 03:59:10',1,'2016-04-01 05:10:48',15),(3,'hasitha3','$2a$10$29da8dfa0ea906224d27au79SUy/MfMM1SP//pqmFf6d8RM4Q.KlG','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'53bf6cfac7dfb5019d03182d932087c9',2,'2016-03-31 03:59:26',1,'2016-04-03 00:35:13',15),(4,'hasitha4','$2a$10$beae54e3281c74299b1c6uL3h7Vju.o972cqOM3xwTEGSIuqIuXre','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'614a961a70965efd7e282b0fd0a88a48',1,'2016-03-31 04:01:18',1,NULL,NULL),(5,'hasitha5','$2a$10$e476bedb1afe652f2975bOuBjv.wAZhwj4jkHa.roSmHxPXyWqX9q','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'8578beaab256c8849a16157ab5bcbc0c',1,'2016-03-31 04:03:21',1,NULL,NULL),(6,'hasitha6','$2a$10$99de69dbd7cf054b56753ujCXxujTv1jyzVIoONZj32ooD4I4X6wS','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'04205faf35b50aa0a606ff3c5bd3b134',1,'2016-03-31 04:03:55',2,NULL,NULL),(7,'hasitha7','$2a$10$ee69628d477d496511e38uKbOHw8jq2qw3wRN2D16LNNPVrqFdvw6','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'53d44c8ac5e0c464da46b87e14adc071',1,'2016-03-31 05:49:25',1,NULL,NULL),(8,'hasitha8','$2a$10$48e49283e958d6daa8057usKMeMYnzmo9C4WxSu4WB7z0RzbOlMmS','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'473e5a3c172eacbf8af938e6a5a5816a',3,'2016-03-31 07:08:25',1,'2016-04-01 05:19:33',15),(9,'hasitha9','$2a$10$bee5146a27af46ba9230duZJ/crBJqbZ/SDB/j6fFUsBJa9dUm8WS','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'e27c6f3d3c1d4682675bfe1d23910fc0',1,'2016-03-31 07:09:00',1,NULL,NULL),(10,'hasitha10','$2a$10$5247d84fde55364a41478uS9OcMzSIJujndDIgj7iRUltv2juV86K','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'5b1436444fa6a57833b459e766878d39',3,'2016-03-31 07:09:12',1,'2016-03-31 15:51:41',15),(11,'hasitha11','$2a$10$41f92a88bba4f5e5d4601u6NRyEUW4O4suGMbFBc.mV8CFnnUW0h2','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'3d2bcbc69b8a963d4787704f2a622efe',3,'2016-03-31 07:10:23',1,'2016-03-31 15:52:47',15),(12,'Waruni','$2a$10$bd78e15d747422952fcb0uVVlvHTXE.qrfrhM.SEO1QxhCmBqyOKG','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'94342f3a2fd2c951d0a9a8cd56f3eff0',1,'2016-03-31 07:53:48',1,NULL,NULL),(13,'Waruni2','$2a$10$86a3cca96b6b994479709uqweXtXig43Zym3MGaMwLohebhf5MerS','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'be64f260bca902302f91adcdfb1f2713',1,'2016-03-31 08:01:20',1,NULL,NULL),(14,'Waruni3','$2a$10$d6674ab645980c0e4929fuxW.stODcyY//sTuipzpYK2GEDf0phF6','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'c9b8979e4cad44c8c7dc17ccd602b867',1,'2016-03-31 08:07:38',1,NULL,NULL),(15,'Waruni4','$2a$10$8f91406ae3d642f29e38cOrQFMsTQ0MdmAfQOlYIgfgYIRfS1ZpDu','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'46157968bc86e2bd18d543864885d881',1,'2016-03-31 08:08:47',1,NULL,NULL),(16,'Waruni5','$2a$10$91e1a417969f392a6eba1Oc3LsDXho9I/ym48uprSuzXbHlUF.dUG','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'6119c2bfe9c9c56f5b376b74658a730f',1,'2016-03-31 08:12:11',1,NULL,NULL),(17,'Waruni6','$2a$10$68be338f58f04dd3dbe05uMvO0KUAw9NjsGcoos.Oh1zwZsYvsQLa','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'c5c6b8516aa974ddc0f291f7b04e7e9e',3,'2016-03-31 08:13:04',1,'2016-03-31 14:53:26',15),(18,'Waruni7','$2a$10$6e7d411a25874500f6491uXxKTOJgdFRUXEDj9tidrazbNKkvPGTa','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'86ade512c87681cdaff5a596e64b15c7',3,'2016-03-31 08:13:32',15,'2016-03-31 15:06:53',15),(19,'Waruni8','$2a$10$e77c486b713ee7c9e4ecdu9oY0brQIZBQsiRzoKbd2ynZxQEawul2','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'ae190b27059e980368c6049083eb0523',2,'2016-03-31 13:24:42',15,NULL,NULL),(22,'Waruni8','$2a$10$9b853fdb146842fa0e66eucJwJOU0sW3CRumx7iBmgRBjyknU/0zu','Waruni Samarawickrama new','warunish@gmail.com','0717584228',1,'9596b131f116207898fa4411dd900b17',2,'2016-03-31 13:31:33',15,NULL,NULL),(23,'Waruni8','$2a$10$94e23a57818d0e21ad782uBXt3oxBh/OmjPgdaBgXhYmpxFDr7r82','Waruni Samarawickrama new','warunish@gmail.com','0717584228',1,'bfd1ad25077fb3d01d7e55ce9e5d9d88',3,'2016-03-31 13:38:30',15,'2016-03-31 14:41:55',15),(24,'hasitha2','$2a$10$a10f4a19fad93063b9191eiiM3zRYM7OW1rRmeEyufLvjb4C30Hwu','aaaaaaaaa','ghasithalakmal@gmail.com','0717567855',1,'8f65cf5303781bd6e2c6a4ccf71ac0a9',2,'2016-03-31 16:18:20',15,'2016-04-01 05:10:48',15),(25,'hasitha2','$2a$10$8a4d1fc11a36b4fc147a4ui80tnIKTnM33HNUEuobQFHuLfU0L9gC','Hasitha Lakmal','ghasithalakmal@gmail.com','0756780065',1,'9c754261896170f596a3e131ecf24ef3',2,'2016-03-31 16:21:10',15,'2016-04-01 05:10:48',15),(26,'hasitha2','$2a$10$ef1c4acfe453c94103071uQ45ZlSK.uBHgDFSv3cAgQV4YaHE4sY2','Hasitha Lakmal Gamage','ghasithalakmal@gmail.com','0756780065',1,'c42569a9eb2bfd0a5757e2e5b9956694',2,'2016-03-31 16:29:48',15,'2016-04-01 05:10:48',15),(27,'ucsc1','$2a$10$981b95a7f251955879d90uTCGOoo8mD9p8loxfIpkxfnJoDtc1wyK','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'15522f5f30d795c7405c4f35237367ed',1,'2016-04-01 01:25:32',3,NULL,NULL),(28,'ucsc2','$2a$10$7440ffa7de92bded8d56bu0XnWbyg9Yu7HN2tOjIqo8.fFI5zS4/O','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'d1bb1a710754162bd5552e6cc571f9f6',1,'2016-04-01 01:29:16',3,NULL,NULL),(29,'ucsc3','$2a$10$d8cf55ae89698631106fau5p7b0beN9b75Ea5ruxBINSt4x/b2uea','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'961c1f289c4ae1c9ef9f626339099956',1,'2016-04-01 05:05:14',3,NULL,NULL),(30,'ucsc4','$2a$10$5b63ccc5255aed2a966d8u2xeOrOyDM9N2CeXXz3SEghVE2vspqLa','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'e288534cf8cf72e104359dc2da404781',1,'2016-04-01 05:05:20',3,NULL,NULL),(31,'ucsc5','$2a$10$7320817b99bee29976fb2eF2h6d22YTUgqQz/QjNgw7mDFGU7df.O','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'257911627d8fa314564073c3421cde25',1,'2016-04-01 05:05:25',3,NULL,NULL),(32,'hasitha2','$2a$10$bdda4b37d5f56b19df1bdewUbitZcTF/12Zf9gvnoVLmYFXprejCi','Hasitha Lakmal new','ghasithalakmal@gmail.com','0717584227',1,'b0f36a158b02ffc07b51901913176a34',1,'2016-04-01 05:10:48',15,NULL,NULL),(33,'Hasitha12','$2a$10$a503a142cba66b50855fcebN4BZ0B0Xakd.73vAs0j9fOcOwKEViS','Hasitha Lakmal Gamage','ghasithalakmal@gmail.com','0756780065',1,'a12493b9674cfb5bea03bdc757341555',1,'2016-04-01 05:17:53',3,NULL,NULL),(34,'Hasitha13','$2a$10$eb955fdda41001c3be4eeOG4yq7tyXd8wF3L3wwCwUUWTVS5SjWsa','Hasitha Lakmal Gamage','ghasithalakmal@gmail.com','0756780065',1,'6e3287653a2aa72c5288129ab8e36a8c',1,'2016-04-01 06:44:56',3,NULL,NULL),(35,'Hasitha15','$2a$10$9578051f3530538b3b622u077z/69IOqkaOSbpuT2kXVqtnk91TK6','Hasitha Lakmal Gamage','ghasithalakmal@gmail.com','0756780065',1,'698627760f1061bf41808c2c9120e2f5',3,'2016-04-01 09:58:36',3,'2016-04-01 10:04:28',15),(36,'Hasitha18','$2a$10$ebc34b58e033ded6c0fcbO5I04/hsbkXt5/HzUOKNI4R70ZRPVcw6','Hasitha Lakmal Gamage','ghasithalakmal@gmail.com','0756780065',1,'4b1e8d9b81b1425ee92d0dce5bf46ba7',1,'2016-04-03 00:34:43',3,NULL,NULL),(37,'hasitha3','$2a$10$94929466608d9a5672cb1OdQODEgmo5dyIk8HV3JrerOb8/KM/D/e','Hasitha Lakmal','ghasithalakmal@gmail.com','0717584227',1,'ddd6531252523af43500fff973d82b90',3,'2016-04-03 00:35:13',15,'2016-04-03 00:36:01',15);
+INSERT INTO `operational_user` VALUES (1,'hasitha','$2a$10$d04ee9b3b685050aea7dauT/ipJNaosa18fQ2q71pQeGS.I9Ev8Du','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'e57598603448df03a0c99652319c6ffc',1,'2016-03-31 03:58:07',1,NULL,NULL),(2,'hasitha2','$2a$10$12b9e5760815de84017d0e83GWRasG1buLYY/pvugSEFv4ZymNyPa','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'fae91e80dcfe44c6677a1ff6c92c6422',2,'2016-03-31 03:59:10',1,'2016-04-01 05:10:48',15),(3,'hasitha3','$2a$10$29da8dfa0ea906224d27au79SUy/MfMM1SP//pqmFf6d8RM4Q.KlG','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'53bf6cfac7dfb5019d03182d932087c9',2,'2016-03-31 03:59:26',1,'2016-04-03 00:35:13',15),(4,'hasitha4','$2a$10$beae54e3281c74299b1c6uL3h7Vju.o972cqOM3xwTEGSIuqIuXre','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'614a961a70965efd7e282b0fd0a88a48',3,'2016-03-31 04:01:18',1,'2016-04-07 01:05:02',1),(5,'hasitha5','$2a$10$e476bedb1afe652f2975bOuBjv.wAZhwj4jkHa.roSmHxPXyWqX9q','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'8578beaab256c8849a16157ab5bcbc0c',1,'2016-03-31 04:03:21',1,NULL,NULL),(6,'hasitha6','$2a$10$99de69dbd7cf054b56753ujCXxujTv1jyzVIoONZj32ooD4I4X6wS','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'04205faf35b50aa0a606ff3c5bd3b134',1,'2016-03-31 04:03:55',2,NULL,NULL),(7,'hasitha7','$2a$10$ee69628d477d496511e38uKbOHw8jq2qw3wRN2D16LNNPVrqFdvw6','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'53d44c8ac5e0c464da46b87e14adc071',1,'2016-03-31 05:49:25',1,NULL,NULL),(8,'hasitha8','$2a$10$48e49283e958d6daa8057usKMeMYnzmo9C4WxSu4WB7z0RzbOlMmS','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'473e5a3c172eacbf8af938e6a5a5816a',3,'2016-03-31 07:08:25',1,'2016-04-01 05:19:33',15),(9,'hasitha9','$2a$10$bee5146a27af46ba9230duZJ/crBJqbZ/SDB/j6fFUsBJa9dUm8WS','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'e27c6f3d3c1d4682675bfe1d23910fc0',1,'2016-03-31 07:09:00',1,NULL,NULL),(10,'hasitha10','$2a$10$5247d84fde55364a41478uS9OcMzSIJujndDIgj7iRUltv2juV86K','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'5b1436444fa6a57833b459e766878d39',3,'2016-03-31 07:09:12',1,'2016-03-31 15:51:41',15),(11,'hasitha11','$2a$10$41f92a88bba4f5e5d4601u6NRyEUW4O4suGMbFBc.mV8CFnnUW0h2','hasitha lakmal','ghasithalakmal@gmail.com','0756780065',1,'3d2bcbc69b8a963d4787704f2a622efe',3,'2016-03-31 07:10:23',1,'2016-03-31 15:52:47',15),(12,'Waruni','$2a$10$bd78e15d747422952fcb0uVVlvHTXE.qrfrhM.SEO1QxhCmBqyOKG','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'94342f3a2fd2c951d0a9a8cd56f3eff0',1,'2016-03-31 07:53:48',1,NULL,NULL),(13,'Waruni2','$2a$10$86a3cca96b6b994479709uqweXtXig43Zym3MGaMwLohebhf5MerS','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'be64f260bca902302f91adcdfb1f2713',1,'2016-03-31 08:01:20',1,NULL,NULL),(14,'Waruni3','$2a$10$d6674ab645980c0e4929fuxW.stODcyY//sTuipzpYK2GEDf0phF6','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'c9b8979e4cad44c8c7dc17ccd602b867',1,'2016-03-31 08:07:38',1,NULL,NULL),(15,'Waruni4','$2a$10$8f91406ae3d642f29e38cOrQFMsTQ0MdmAfQOlYIgfgYIRfS1ZpDu','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'46157968bc86e2bd18d543864885d881',1,'2016-03-31 08:08:47',1,NULL,NULL),(16,'Waruni5','$2a$10$91e1a417969f392a6eba1Oc3LsDXho9I/ym48uprSuzXbHlUF.dUG','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'6119c2bfe9c9c56f5b376b74658a730f',1,'2016-03-31 08:12:11',1,NULL,NULL),(17,'Waruni6','$2a$10$68be338f58f04dd3dbe05uMvO0KUAw9NjsGcoos.Oh1zwZsYvsQLa','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'c5c6b8516aa974ddc0f291f7b04e7e9e',3,'2016-03-31 08:13:04',1,'2016-03-31 14:53:26',15),(18,'Waruni7','$2a$10$6e7d411a25874500f6491uXxKTOJgdFRUXEDj9tidrazbNKkvPGTa','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'86ade512c87681cdaff5a596e64b15c7',3,'2016-03-31 08:13:32',15,'2016-03-31 15:06:53',15),(19,'Waruni8','$2a$10$e77c486b713ee7c9e4ecdu9oY0brQIZBQsiRzoKbd2ynZxQEawul2','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'ae190b27059e980368c6049083eb0523',2,'2016-03-31 13:24:42',15,NULL,NULL),(22,'Waruni8','$2a$10$9b853fdb146842fa0e66eucJwJOU0sW3CRumx7iBmgRBjyknU/0zu','Waruni Samarawickrama new','warunish@gmail.com','0717584228',1,'9596b131f116207898fa4411dd900b17',2,'2016-03-31 13:31:33',15,NULL,NULL),(23,'Waruni8','$2a$10$94e23a57818d0e21ad782uBXt3oxBh/OmjPgdaBgXhYmpxFDr7r82','Waruni Samarawickrama new','warunish@gmail.com','0717584228',1,'bfd1ad25077fb3d01d7e55ce9e5d9d88',3,'2016-03-31 13:38:30',15,'2016-03-31 14:41:55',15),(24,'hasitha2','$2a$10$a10f4a19fad93063b9191eiiM3zRYM7OW1rRmeEyufLvjb4C30Hwu','aaaaaaaaa','ghasithalakmal@gmail.com','0717567855',1,'8f65cf5303781bd6e2c6a4ccf71ac0a9',2,'2016-03-31 16:18:20',15,'2016-04-01 05:10:48',15),(25,'hasitha2','$2a$10$8a4d1fc11a36b4fc147a4ui80tnIKTnM33HNUEuobQFHuLfU0L9gC','Hasitha Lakmal','ghasithalakmal@gmail.com','0756780065',1,'9c754261896170f596a3e131ecf24ef3',2,'2016-03-31 16:21:10',15,'2016-04-01 05:10:48',15),(26,'hasitha2','$2a$10$ef1c4acfe453c94103071uQ45ZlSK.uBHgDFSv3cAgQV4YaHE4sY2','Hasitha Lakmal Gamage','ghasithalakmal@gmail.com','0756780065',1,'c42569a9eb2bfd0a5757e2e5b9956694',2,'2016-03-31 16:29:48',15,'2016-04-01 05:10:48',15),(27,'ucsc1','$2a$10$981b95a7f251955879d90uTCGOoo8mD9p8loxfIpkxfnJoDtc1wyK','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'15522f5f30d795c7405c4f35237367ed',1,'2016-04-01 01:25:32',3,NULL,NULL),(28,'ucsc2','$2a$10$7440ffa7de92bded8d56bu0XnWbyg9Yu7HN2tOjIqo8.fFI5zS4/O','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'d1bb1a710754162bd5552e6cc571f9f6',1,'2016-04-01 01:29:16',3,NULL,NULL),(29,'ucsc3','$2a$10$d8cf55ae89698631106fau5p7b0beN9b75Ea5ruxBINSt4x/b2uea','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'961c1f289c4ae1c9ef9f626339099956',1,'2016-04-01 05:05:14',3,NULL,NULL),(30,'ucsc4','$2a$10$5b63ccc5255aed2a966d8u2xeOrOyDM9N2CeXXz3SEghVE2vspqLa','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'e288534cf8cf72e104359dc2da404781',1,'2016-04-01 05:05:20',3,NULL,NULL),(31,'ucsc5','$2a$10$7320817b99bee29976fb2eF2h6d22YTUgqQz/QjNgw7mDFGU7df.O','Waruni Samarawickrama','warunish@gmail.com','0717584228',1,'257911627d8fa314564073c3421cde25',1,'2016-04-01 05:05:25',3,NULL,NULL),(32,'hasitha2','$2a$10$bdda4b37d5f56b19df1bdewUbitZcTF/12Zf9gvnoVLmYFXprejCi','Hasitha Lakmal new','ghasithalakmal@gmail.com','0717584227',1,'b0f36a158b02ffc07b51901913176a34',1,'2016-04-01 05:10:48',15,NULL,NULL),(33,'Hasitha12','$2a$10$a503a142cba66b50855fcebN4BZ0B0Xakd.73vAs0j9fOcOwKEViS','Hasitha Lakmal Gamage','ghasithalakmal@gmail.com','0756780065',1,'a12493b9674cfb5bea03bdc757341555',1,'2016-04-01 05:17:53',3,NULL,NULL),(34,'Hasitha13','$2a$10$eb955fdda41001c3be4eeOG4yq7tyXd8wF3L3wwCwUUWTVS5SjWsa','Hasitha Lakmal Gamage','ghasithalakmal@gmail.com','0756780065',1,'6e3287653a2aa72c5288129ab8e36a8c',1,'2016-04-01 06:44:56',3,NULL,NULL),(35,'Hasitha15','$2a$10$9578051f3530538b3b622u077z/69IOqkaOSbpuT2kXVqtnk91TK6','Hasitha Lakmal Gamage','ghasithalakmal@gmail.com','0756780065',1,'698627760f1061bf41808c2c9120e2f5',3,'2016-04-01 09:58:36',3,'2016-04-01 10:04:28',15),(36,'Hasitha18','$2a$10$ebc34b58e033ded6c0fcbO5I04/hsbkXt5/HzUOKNI4R70ZRPVcw6','Hasitha Lakmal Gamage','ghasithalakmal@gmail.com','0756780065',1,'4b1e8d9b81b1425ee92d0dce5bf46ba7',1,'2016-04-03 00:34:43',3,NULL,NULL),(37,'hasitha3','$2a$10$94929466608d9a5672cb1OdQODEgmo5dyIk8HV3JrerOb8/KM/D/e','Hasitha Lakmal','ghasithalakmal@gmail.com','0717584227',1,'ddd6531252523af43500fff973d82b90',3,'2016-04-03 00:35:13',15,'2016-04-03 00:36:01',15);
 /*!40000 ALTER TABLE `operational_user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1724,6 +1736,129 @@ SET character_set_client = utf8;
 SET character_set_client = @saved_cs_client;
 
 --
+-- Table structure for table `qualification`
+--
+
+DROP TABLE IF EXISTS `qualification`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `qualification` (
+  `qul_id` int(11) NOT NULL AUTO_INCREMENT,
+  `qul_name` varchar(45) DEFAULT NULL,
+  `qul_discription` varchar(45) DEFAULT NULL,
+  `qul_type_id` int(11) DEFAULT NULL,
+  `status` varchar(45) DEFAULT '1',
+  `recode_added_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `recode_added_by` int(11) DEFAULT NULL,
+  `recode_modified_at` timestamp NULL DEFAULT NULL,
+  `recode_modified_by` int(11) DEFAULT NULL,
+  PRIMARY KEY (`qul_id`),
+  KEY `quali_type_idx` (`qul_type_id`),
+  CONSTRAINT `quali_type` FOREIGN KEY (`qul_type_id`) REFERENCES `qualification_type` (`qul_typ_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `qualification`
+--
+
+LOCK TABLES `qualification` WRITE;
+/*!40000 ALTER TABLE `qualification` DISABLE KEYS */;
+/*!40000 ALTER TABLE `qualification` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `qualification_type`
+--
+
+DROP TABLE IF EXISTS `qualification_type`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `qualification_type` (
+  `qul_typ_id` int(11) NOT NULL AUTO_INCREMENT,
+  `qul_type_name` varchar(45) DEFAULT NULL,
+  `status` varchar(45) DEFAULT '1',
+  `recode_added_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `recode_added_by` int(11) DEFAULT NULL,
+  `recode_modified_at` timestamp NULL DEFAULT NULL,
+  `recode_modified_by` int(11) DEFAULT NULL,
+  PRIMARY KEY (`qul_typ_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `qualification_type`
+--
+
+LOCK TABLES `qualification_type` WRITE;
+/*!40000 ALTER TABLE `qualification_type` DISABLE KEYS */;
+/*!40000 ALTER TABLE `qualification_type` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `recommendation`
+--
+
+DROP TABLE IF EXISTS `recommendation`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `recommendation` (
+  `rec_id` int(11) NOT NULL,
+  `rec_stu_id` int(11) DEFAULT NULL,
+  `rec_type_id` int(11) DEFAULT NULL,
+  `rec_topic` varchar(45) DEFAULT NULL,
+  `rec_discription` varchar(45) DEFAULT NULL,
+  `status` varchar(45) DEFAULT '1',
+  `recode_added_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `recode_added_by` int(11) DEFAULT NULL,
+  `recode_modified_at` timestamp NULL DEFAULT NULL,
+  `recode_modified_by` int(11) DEFAULT NULL,
+  PRIMARY KEY (`rec_id`),
+  KEY `rec_type_id_idx` (`rec_type_id`),
+  KEY `rec_stu_id_idx` (`rec_stu_id`),
+  CONSTRAINT `rec_stu_id` FOREIGN KEY (`rec_stu_id`) REFERENCES `student` (`stu_id`),
+  CONSTRAINT `rec_type_id` FOREIGN KEY (`rec_type_id`) REFERENCES `recommendation_type` (`rec_type_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `recommendation`
+--
+
+LOCK TABLES `recommendation` WRITE;
+/*!40000 ALTER TABLE `recommendation` DISABLE KEYS */;
+/*!40000 ALTER TABLE `recommendation` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `recommendation_type`
+--
+
+DROP TABLE IF EXISTS `recommendation_type`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `recommendation_type` (
+  `rec_type_id` int(11) NOT NULL AUTO_INCREMENT,
+  `rec_type_name` varchar(45) DEFAULT NULL,
+  `status` varchar(45) DEFAULT '1',
+  `recode_added_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `recode_added_by` int(11) DEFAULT NULL,
+  `recode_modified_at` timestamp NULL DEFAULT NULL,
+  `recode_modified_by` int(11) DEFAULT NULL,
+  PRIMARY KEY (`rec_type_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `recommendation_type`
+--
+
+LOCK TABLES `recommendation_type` WRITE;
+/*!40000 ALTER TABLE `recommendation_type` DISABLE KEYS */;
+/*!40000 ALTER TABLE `recommendation_type` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `result`
 --
 
@@ -1811,6 +1946,36 @@ SET character_set_client = utf8;
  1 AS `sch_recode_added_at`,
  1 AS `sch_recode_added_by`*/;
 SET character_set_client = @saved_cs_client;
+
+--
+-- Table structure for table `siblings`
+--
+
+DROP TABLE IF EXISTS `siblings`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `siblings` (
+  `stu_id` int(11) NOT NULL,
+  `slib_id` int(11) NOT NULL,
+  `status` int(11) DEFAULT '1',
+  `recode_added_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `recode_added_by` int(11) DEFAULT NULL,
+  `recode_modified_at` timestamp NULL DEFAULT NULL,
+  `recode_modified_by` int(11) DEFAULT NULL,
+  PRIMARY KEY (`stu_id`,`slib_id`),
+  CONSTRAINT `sib_id` FOREIGN KEY (`stu_id`) REFERENCES `student` (`stu_id`),
+  CONSTRAINT `stu_id` FOREIGN KEY (`stu_id`) REFERENCES `student` (`stu_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `siblings`
+--
+
+LOCK TABLES `siblings` WRITE;
+/*!40000 ALTER TABLE `siblings` DISABLE KEYS */;
+/*!40000 ALTER TABLE `siblings` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Temporary view structure for view `stu_details_view`
@@ -2575,7 +2740,7 @@ CREATE TABLE `talants` (
   `recode_modified_at` timestamp NULL DEFAULT NULL,
   `recode_modified_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`tal_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -2584,7 +2749,7 @@ CREATE TABLE `talants` (
 
 LOCK TABLES `talants` WRITE;
 /*!40000 ALTER TABLE `talants` DISABLE KEYS */;
-INSERT INTO `talants` VALUES (1,'tal1',1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'tal2',1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'tal3',1,'2016-03-26 00:20:10',1,NULL,NULL);
+INSERT INTO `talants` VALUES (1,'tal1',1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'tal2',1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'tal3',1,'2016-03-26 00:20:10',1,NULL,NULL),(4,'talent1',1,'2016-04-03 06:28:43',27,NULL,NULL);
 /*!40000 ALTER TABLE `talants` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -2602,8 +2767,19 @@ CREATE TABLE `teacher` (
   `tea_land_phone_number` varchar(45) DEFAULT NULL,
   `tea_mobile_phone_number` varchar(45) DEFAULT NULL,
   `tea_address` varchar(45) DEFAULT NULL,
+  `tea_birth_day` date DEFAULT NULL,
   `tea_city` varchar(45) DEFAULT NULL,
+  `tec_nic` varchar(45) DEFAULT NULL,
   `lib_mem_id` int(11) DEFAULT NULL,
+  `tea_distance_to_home` int(11) DEFAULT NULL,
+  `tea_occupation` varchar(45) DEFAULT NULL,
+  `tea_occupation_type` int(11) DEFAULT NULL,
+  `tea_office_address` varchar(45) DEFAULT NULL,
+  `tea_office_phone` varchar(45) DEFAULT NULL,
+  `tea_gender` varchar(45) DEFAULT NULL,
+  `tea_email` varchar(45) DEFAULT NULL,
+  `tea_student_id` int(11) DEFAULT NULL,
+  `tea_ob_id` int(11) DEFAULT NULL,
   `status` int(11) DEFAULT '1',
   `recode_added_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `recode_added_by` int(11) DEFAULT NULL,
@@ -2611,7 +2787,11 @@ CREATE TABLE `teacher` (
   `recode_modified_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`tea_id`),
   KEY `lib_mem_id2_idx` (`lib_mem_id`),
-  CONSTRAINT `lib_mem_id2` FOREIGN KEY (`lib_mem_id`) REFERENCES `member` (`mem_id`)
+  KEY `occ_type_idx` (`tea_occupation_type`),
+  KEY `tea_stu_id_idx` (`tea_student_id`),
+  CONSTRAINT `lib_mem_id2` FOREIGN KEY (`lib_mem_id`) REFERENCES `member` (`mem_id`),
+  CONSTRAINT `occ_type` FOREIGN KEY (`tea_occupation_type`) REFERENCES `occupation_type` (`occ_type_id`),
+  CONSTRAINT `tea_stu_id` FOREIGN KEY (`tea_student_id`) REFERENCES `student` (`stu_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -2621,7 +2801,7 @@ CREATE TABLE `teacher` (
 
 LOCK TABLES `teacher` WRITE;
 /*!40000 ALTER TABLE `teacher` DISABLE KEYS */;
-INSERT INTO `teacher` VALUES (1,'tea1','aaa','123456789','123456789','123aaaa','a',NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'tea2','aaa','123456789','123456789','123aaaa','a',NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'tea3','aaa','123456789','123456789','123aaaa','a',NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(4,'tea4','aaa','123456789','123456789','123aaaa','a',NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(5,'tea5','aaa','123456789','123456789','123aaaa','a',NULL,1,'2016-03-26 00:20:10',1,NULL,NULL);
+INSERT INTO `teacher` VALUES (1,'tea1','aaa','123456789','123456789','123aaaa',NULL,'a',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(2,'tea2','aaa','123456789','123456789','123aaaa',NULL,'a',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(3,'tea3','aaa','123456789','123456789','123aaaa',NULL,'a',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(4,'tea4','aaa','123456789','123456789','123aaaa',NULL,'a',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL),(5,'tea5','aaa','123456789','123456789','123aaaa',NULL,'a',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,'2016-03-26 00:20:10',1,NULL,NULL);
 /*!40000 ALTER TABLE `teacher` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -2657,6 +2837,38 @@ LOCK TABLES `teacher_class` WRITE;
 /*!40000 ALTER TABLE `teacher_class` DISABLE KEYS */;
 INSERT INTO `teacher_class` VALUES (2000,1,1,1,'2016-03-26 00:20:10',1,NULL,NULL),(2000,2,2,1,'2016-03-26 00:20:10',1,NULL,NULL),(2000,3,3,1,'2016-03-26 00:20:10',1,NULL,NULL),(2000,4,4,1,'2016-03-26 00:20:10',1,NULL,NULL),(2000,5,5,1,'2016-03-26 00:20:10',1,NULL,NULL),(2001,1,1,1,'2016-03-26 00:20:10',1,NULL,NULL),(2001,2,3,1,'2016-03-26 00:20:10',1,NULL,NULL),(2001,3,2,1,'2016-03-26 00:20:10',1,NULL,NULL),(2002,1,3,1,'2016-03-26 00:20:10',1,NULL,NULL),(2002,2,2,1,'2016-03-26 00:20:10',1,NULL,NULL);
 /*!40000 ALTER TABLE `teacher_class` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `teacher_qualification`
+--
+
+DROP TABLE IF EXISTS `teacher_qualification`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `teacher_qualification` (
+  `tea_id` int(11) NOT NULL,
+  `qul_id` int(11) NOT NULL,
+  `tea_qul_discription` varchar(45) NOT NULL,
+  `qul_institute` varchar(45) DEFAULT NULL,
+  `qul_year` varchar(45) DEFAULT NULL,
+  `qul_result` varchar(45) DEFAULT NULL,
+  `status` int(11) DEFAULT '1',
+  `recode_added_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `recode_added_by` int(11) DEFAULT NULL,
+  `recode_modified_at` timestamp NULL DEFAULT NULL,
+  `recode_modified_by` int(11) DEFAULT NULL,
+  PRIMARY KEY (`tea_id`,`qul_id`,`tea_qul_discription`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `teacher_qualification`
+--
+
+LOCK TABLES `teacher_qualification` WRITE;
+/*!40000 ALTER TABLE `teacher_qualification` DISABLE KEYS */;
+/*!40000 ALTER TABLE `teacher_qualification` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -3110,4 +3322,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-04-03  6:28:19
+-- Dump completed on 2016-04-07 12:51:14
